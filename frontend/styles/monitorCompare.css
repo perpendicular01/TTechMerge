@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Logo */
+
+.navbar {
+  height: 12vh;
+/* background-image: linear-gradient(
+  to left,
+  black,
+  rgb(28, 25, 25) 30%,
+  rgb(46, 43, 43) 100%
+); */
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+.nav-button {
+width: 300px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+text-decoration: none;
+/* margin-left: 560px; */
+list-style: none;
+}
+
+.home a {
+color: rgb(146, 146, 224);
+text-decoration: none;
+list-style: none;
+font-weight: bolder;
+}
+.about a {
+color: white;
+text-decoration: none;
+font-weight: bolder;
+}
+
+.nav-button i:hover {
+color: rgb(146, 146, 224);
+}
+
+.about a:hover {
+color: black;
+}
+.contact a:hover {
+color: black;
+}
+
+.contact a {
+color: white;
+text-decoration: none;
+font-weight: bolder;
+}
+
+.nav-button i {
+color: white;
+}
+
+.nav-product {
+width: 100px;
+/* margin-left: 50px; */
+/* margin-right: 20px; */
+}
+
+.product {
+color: white;
+font-weight: bolder;
+width: 86px;
+position: relative;
+text-align: center;
+margin-bottom: 0px;
+z-index: 2;
+}
+
+.product:hover {
+top: 66px;
+}
+
+.product:hover .product-content {
+display: inline;
+}
+
+.product-image {
+display: inline;
+}
+.product a {
+text-decoration: none;
+}
+.product-text {
+color: white;
+display: inline;
+}
+
+.product-content {
+display: none;
+}
+
+.product-content a {
+display: inline-block;
+width: 100%;
+text-align: center;
+background-color: rgb(223, 223, 20);
+color: rgb(26, 21, 21);
+text-decoration: none;
+font-weight: bolder;
+margin-bottom: 5px;
+border: 2px solid rgb(201, 184, 184);
+border-radius: 2px;
+}
+
+/* .product:hover .product-content a :hover {
+  background-color: rgb(21, 116, 26);
+} */
+
+
+.dropdown-container {
+width: 80px;
+position: relative;
+text-align: center;
+color: white;
+font-weight: bolder;
+margin-bottom: px;
+z-index: 2;
+}
+
+.dropdown-container:hover {
+top: 26px;
+}
+
+.dropdown-container:hover .dropdown-content {
+display: inline;
+}
+
+.registration {
+margin-bottom: 5px;
+}
+
+.dropdown-content {
+display: none;
+}
+
+.dropdown-content a {
+display: inline-block;
+width: 100%;
+text-align: center;
+background-color: rgb(148, 141, 131);
+color: white;
+text-decoration: none;
+font-weight: bolder;
+margin-bottom: 5px;
+border: 2px solid rgb(201, 184, 184);
+border-radius: 2px;
+}
+.cartDiv1 {
+position: fixed;
+z-index: 8;
+right: 20px; /* Fixed distance from the right edge */
+bottom: 20px; /* Fixed distance from the bottom edge */;
+}
+
+.cartDiv2 {
+  position: fixed;
+  z-index: 8;
+  right: 20px; /* Fixed distance from the right edge */
+  bottom: 100px; /* Fixed distance from the bottom edge */;
+  }
+.goto_cart1 {
+display: flex;
+flex-direction: column;
+height: 62px;
+width: 60px;
+justify-content: center;
+align-items: center;
+background-color: #353573;
+border: 2px solid black;
+border-radius: 16px;
+font-size: 14px;
+padding: 5px;
+}
+
+.goto_cart1 i {
+color: white;
+}
+.goto_cart1 a {
+text-decoration: none;
+}
+
+.goToCart1 {
+font-size: 12px;
+font-weight: bolder;
+margin: 3px;
+}
+
+/* main */
+
+
+
+.footer {
+  height: 14vh;
+  margin-top: 105px;
+  background-image: linear-gradient(
+    to left,
+    black,
+    rgb(53, 53, 53) 50%,
+    rgb(46, 43, 43) 100%
+  );
+  min-width: 120vw;
+}
+
+/* 
+        <div class="product">
+                  <i class="fa-solid fa-shop" style="display: inline"></i>
+                  <p class="registration" style="display: inline">Products</p>
+                  <div class="product-content">
+                    <a href="../product/product.html">MONITOR</a>
+                    <a href="../cpu_page/cpu.html">CPU</a>
+                    <a href="../ram_page/ram.html">RAM</a>
+                    <a href="../signUp/signup.html">ROM</a>
+                    <a href="../gpu_page/gpu.html">GPU</a>
+                  </div>
+                </div> */
