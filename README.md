@@ -36,14 +36,14 @@ A web scraping-based application that fetches **real-time data of PC components*
 
 ## 🧰 Tech Stack
 
-### 🔧 Backend
-- **Node.js + Express.js**
-- **MongoDB** (for caching scraped data, optional)
-
 ### 🎨 Frontend
 - **HTML**
 - **Tailwind CSS**
 - **JAVACRIPT**
+
+### 🔧 Backend
+- **Node.js + Express.js**
+- **SQL** (for caching scraped data, optional)
 
 
 
