@@ -1,16 +1,51 @@
-# PC Component Comparison Web App
+# 🖥️ TechMerge
 
-A web scraping-based application that fetches and displays real-time data of PC components like monitors, GPUs, and RAMs. Users can compare products side-by-side, apply filters, and easily find the best options based on their preferences.
+A web scraping-based application that fetches **real-time data of PC components** such as **monitors, GPUs, Cpus, Mouse, and RAMs** from popular e-commerce websites. Users can compare products side-by-side, filter based on preferences like price, brand, and specs, and find the best deals available online.
 
-## Features
+---
 
--  Real-time web scraping of PC components  
--  Compare multiple products side-by-side  
--  Filter by price, brand, and specifications  
--  Simple and clean user interface  
--  Responsive design
+## 🚀 Features
 
---- 
+- 🔍 **Real-Time Web Scraping**  
+  Automatically fetches and updates the latest prices, specifications, and availability of components.
+
+- ⚙️ **Component Categories**  
+  - Monitors  
+  - Graphics Cards (GPUs)  
+  - RAM (Memory)
+  - ROM
+  - CPU
+
+- 🔄 **Side-by-Side Comparison**  
+  Easily compare specs, prices, and ratings between selected products.
+
+- 🎯 **Advanced Filters**  
+  Filter by:
+  - Price range
+  - Brand
+  - Memory size / Refresh rate / VRAM (based on category)
+  - Ratings and availability
+
+- 🛒 **Direct Buy Links**  
+  Instantly navigate to the product’s page on the original e-commerce site.
+
+- 💡 **Responsive UI**  
+  Fully responsive design built for both desktop and mobile users.
+
+---
+
+## 🧰 Tech Stack
+
+### 🔧 Backend
+- **Node.js + Express.js**
+- **MongoDB** (for caching scraped data, optional)
+
+### 🎨 Frontend
+- **HTML**
+- **Tailwind CSS**
+- **JAVACRIPT**
+
+
 
 ## Installation & Setup (Local Environment)
 
